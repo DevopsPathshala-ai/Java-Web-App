@@ -57,7 +57,7 @@ pipeline {
                 echo 'Deploying...'
                 sshPublisher(publishers: 
                 [sshPublisherDesc(
-                    configName: '54.234.228.181', 
+                    configName: 'ansible-controller', 
                     transfers: [
                         sshTransfer(
                             sourceFiles: 'download-deploy.yaml, hosts',
