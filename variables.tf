@@ -10,15 +10,15 @@ variable "ports" {
 
 variable "ami" {
     type = string
-    default = "ami-0dfcb1ef8550277af"
+    default = "ami-0f3caa1cf4417e51b"
 }
 
 variable "instance_type" {
     type = string
-    default = "t2.micro"
+    default = "t3.medium"
 }
 
 variable "instance_type_for_nexus" {
     type = string
-    default = "t2.medium"
+    default = "t3.medium"
 }
